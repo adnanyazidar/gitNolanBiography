@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  color: #333;
+  background-color: #f5ebe0;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.left-section {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 600px;
+  flex-basis: 40%;
+}
+
+.right-section {
+  flex-basis: 60%;
+  padding: 50px;
+}
+
+.right-section p {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  color: white;
+  text-align: center;
+}
+
+.text-overlay h1 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.text-overlay p {
+  font-size: 12px;
+  margin: 0;
+  color: white;
+  opacity: 0.5;
+}
+
+.read-more-btn {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 5px;
+  color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.title::before {
+  content: "EARLY LIFE";
+  position: absolute;
+  font-size: 24px;
+  color: #333;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container {
+  margin-top: 5%;
+}
+
+.content-life {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.text-section {
+  width: 60%;
+}
+
+.large-text {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.small-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+}
+
+.image-section {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image-block {
+  text-align: center;
+}
+
+.image-block img {
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.image-block p {
+  font-size: 12px;
+  color: #555;
+}
+
+.container-awards {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Awards Section */
+.awards-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #1c1c1c;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.awards-content {
+  width: 55%;
+  color: white;
+}
+
+.awards-content h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.awards-content p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.awards-content .read-more {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.awards-content .read-more:hover {
+  background-color: #555;
+}
+
+.awards-image {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.awards-image img {
+  max-width: 100%;
+  height: auto;
+  /* border-radius: 10px; */
+}
+
+.additional-images {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.additional-images figure {
+  margin: 0 15px;
+  text-align: center;
+}
+
+.additional-images img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.additional-images figcaption {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+footer {
+  /* margin-top: 5%; */
+  color: black;
+  padding: 20px 0;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  /* font-weight: bold; */
+}
+
+.footer-logo p {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.footer-rights p {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+}
